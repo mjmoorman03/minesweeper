@@ -138,4 +138,4 @@ def play(numMines : int, sizeX : int, sizeY : int, noGuessing : bool):
 
 
 if __name__ == "__main__":
-    play(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), bool(sys.argv[4]))
+    play(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), eval(sys.argv[4]))
