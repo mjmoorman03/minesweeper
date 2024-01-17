@@ -3,6 +3,8 @@ Created using Tkinter in Python
 
 Requires Python 3.7
 
+In a terminal, run ./minesweeper.sh to begin.
+
 ## About The Game
 No guess mode still in progress.
 
