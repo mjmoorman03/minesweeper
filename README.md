@@ -18,3 +18,6 @@ Played like normal minesweeper, i.e. left clicks to open squares, right/middle t
 Win upon placing all flags in correct locations (does not check for correct locations, but you're playing against yourself, so why cheat?)\
 
 Space bar to reset game with a new board.\
+
+## Example board
+![Example Board](mines.png)
