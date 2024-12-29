@@ -13,7 +13,7 @@ def setGuess():
 def play(numMines : int, numRows : int, numCols : int, notGuessing : bool):
     r = os.fork()
     if r == 0:
-        os.execvp("python3.7", ["python3.7", "games.py", str(numMines), str(numRows), str(numCols), str(notGuessing)])    
+        os.execvp("python3.10", ["python3.10", "games.py", str(numMines), str(numRows), str(numCols), str(notGuessing)])    
 
 
 def main():

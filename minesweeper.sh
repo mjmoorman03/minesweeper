@@ -1,2 +1,2 @@
 #!/bin/bash
-python3.7 gui.py
+python3.10 gui.py

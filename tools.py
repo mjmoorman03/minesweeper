@@ -20,10 +20,11 @@ def generateMinefield(numMines : int, sizeX : int, sizeY : int):
 
 
 def neighborsOfCoord(coord : Tuple[int, int], innerboardlength : int, boardlength : int) -> Set[Tuple[int, int]]:
+    ''' set of valid coordinates within numbering distance of given coordinate '''
     neighbors = set()
     for i in range(-1, 2):
         for j in range(-1, 2):
-            if coord[0] + i < 0 or coord[0] + i >= boardlength or coord[1] + j < 0 or coord[1] + j >=innerboardlength or (i == 0 and j == 0):
+            if coord[0] + i < 0 or coord[0] + i >= boardlength or coord[1] + j < 0 or coord[1] + j >= innerboardlength or (i == 0 and j == 0):
                 continue
             neighbors.add((coord[0]+i, coord[1]+j))
     return neighbors
